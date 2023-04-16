@@ -1,3 +1,7 @@
 # Float Binary Representation
 
-Convert Float and Double to its binary representation.
+Convert decimal value to its binary representation.
+
+## Example
+
+![example](./Extension-Example.png)

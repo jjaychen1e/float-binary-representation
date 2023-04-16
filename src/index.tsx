@@ -38,18 +38,17 @@ export default function Command() {
 
   return (
     <Form>
-      <Form.Description text="Enter a float number in decimal." />
       <Form.TextField
-        id="float_input"
-        title="Float Input"
-        placeholder="Enter float value"
+        id="decimal_input"
+        title="Decimal Input"
+        placeholder="Enter decimal value"
         defaultValue=""
         value={input}
         onChange={(text) => onFloatInputChange(text)}
       />
       <Form.TextField
         id="float_actual"
-        title="Float Actual"
+        title="Stored 32-bits Float Value"
         placeholder={errorMessage}
         value={floatActual}
         // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -57,7 +56,7 @@ export default function Command() {
       />
       <Form.TextField
         id="float_error"
-        title="Float Error"
+        title="Loss of Precision"
         placeholder={errorMessage}
         value={floatError}
         // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -65,7 +64,7 @@ export default function Command() {
       />
       <Form.TextField
         id="float_binary"
-        title="32 bits Float Output"
+        title="32-bits Float Binary Representation"
         placeholder={errorMessage}
         value={floatBinary}
         // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -73,7 +72,7 @@ export default function Command() {
       />
       <Form.TextField
         id="double_actual"
-        title="Double Actual"
+        title="Stored 64-bits Double Value"
         placeholder={errorMessage}
         value={doubleActual}
         // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -81,7 +80,7 @@ export default function Command() {
       />
       <Form.TextField
         id="double_error"
-        title="Double Error"
+        title="Loss of Precision"
         placeholder={errorMessage}
         value={doubleError}
         // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -89,7 +88,7 @@ export default function Command() {
       />
       <Form.TextField
         id="double_binary"
-        title="64 bits Double Output"
+        title="64-bits Double Binary Representation"
         placeholder={errorMessage}
         value={doubleBinary}
         // eslint-disable-next-line @typescript-eslint/no-empty-function

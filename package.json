@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "float-binary-representation",
   "title": "Float Binary Representation",
-  "description": "Convert Float and Double to its binary representation.",
+  "description": "Convert decimal value to its binary representation.",
   "icon": "command-icon.png",
   "author": "jjaychen",
   "categories": [
